@@ -19,3 +19,39 @@
   min-height: 700px;
   padding: 20px 0 80px 0;
 }
+
+.menu {
+  display: flex;
+  width: 100%;
+}
+
+.logo-menu {
+  width: 50%;
+}
+
+.items-menu {
+  text-align: right;
+  width: 50%;
+}
+
+.items-menu a {
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.items-menu a:hover {
+  border-bottom: 2px solid #FFDD33;
+}
+
+.items-menu a.contact-btn {
+  background-color: #0F3FD3;
+  padding: 12px 10px;
+  border-radius: 10px;
+}
+
+.items-menu a.contact-btn:hover {
+  border: 0;
+}
