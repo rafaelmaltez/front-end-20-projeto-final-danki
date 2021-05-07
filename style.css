@@ -158,6 +158,42 @@
   border-radius: 10px;
 }
 
+.beneficios {
+  display: flex;
+  max-width: 80%;
+  margin: auto;
+  padding: 40px 10px;
+}
+
+.lista-beneficios {
+  vertical-align: middle;
+  width: 50%;
+}
+
+.lista-beneficios span {
+  display: inline-block;
+  width: calc(100% - 70px);
+}
+
+.beneficios-img {
+  width: 50%
+}
+
+.beneficios-img img {
+  width: 100%;
+}
+
+.check-item  img {
+  display: inline-block;
+  width: 70px;
+}
+
+.check-item {
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+}
+
 @media screen and (max-width: 768px) {
   .diferenciais {
     flex-wrap: wrap;
