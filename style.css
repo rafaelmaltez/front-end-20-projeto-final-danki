@@ -125,3 +125,28 @@
   font-size: 13px;
 }
 
+@media screen and (max-width: 768px) {
+  .diferenciais {
+    flex-wrap: wrap;
+  }
+
+  .box-diferenciais {
+    width: 100%;
+    margin-right: 0;
+    text-align: center;
+  }
+
+  .marcas {
+    text-align: center;
+  }
+
+  .marcas > center {
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+  }
+
+  .marcas img {
+    width: 100%;
+  }
+}
