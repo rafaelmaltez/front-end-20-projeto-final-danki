@@ -166,8 +166,25 @@
 }
 
 .lista-beneficios {
-  vertical-align: middle;
   width: 50%;
+}
+
+.lista-beneficios  img {
+  display: inline-block;
+  vertical-align: middle;
+  width: 70px;
+}
+
+.lista-beneficios p {
+  font-size: 14px;
+  vertical-align: middle;
+}
+
+.lista-beneficios h2 {
+  margin-top: 60px;
+  margin-left: 40px;
+  margin-bottom: 30px;
+  font-size: 40px;
 }
 
 .lista-beneficios span {
@@ -175,24 +192,104 @@
   width: calc(100% - 70px);
 }
 
+.lista-beneficios a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  background-color: #255AFF;
+  border-radius: 10px;
+  padding: 15px 30px;
+  margin-left: 30px;
+  margin-top: 70px;
+}
+
 .beneficios-img {
-  width: 50%
+  width: 50%;
 }
 
 .beneficios-img img {
   width: 100%;
 }
 
-.check-item  img {
-  display: inline-block;
-  width: 70px;
+.depoimentos {
+  background-color: #FBFCFE;
+  padding: 40px 0;
 }
 
-.check-item {
-  display: flex;
-  align-items: center;
-  vertical-align: middle;
+.depoimentos h2 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
 }
+
+.container-slider{
+  overflow:hidden;
+  padding:40px 0;   
+}
+
+.container-slider-single{
+  float: left;
+  background-color:white;
+  text-align: center;
+  padding:15px;
+  border-radius:10px;
+}
+
+.container-slider-single p{
+  margin:15px 0;
+  color:#7E92AC;
+  font-size: 14px;
+}
+
+.slick-slide {
+  margin-left:27px;
+
+}
+
+/* the parent */
+.slick-list {
+  margin-left:-27px;
+ 
+}
+
+/****SLICK SLIDER****/
+
+.slick-dotted ul{
+  display: block;
+list-style-type: none;
+text-align: center;
+position: relative;
+top:30px;
+}
+
+.slick-dotted li{
+display: inline-block;
+margin: 0 7px;
+}
+
+.slick-dotted button:focus{
+outline: 0;
+}
+
+.slick-dotted li button{
+width: 16px;
+height: 16px;
+border-radius: 8px;
+color: #d8d8d8;
+border-width: 0;
+background: #d8d8d8;
+opacity: 1;
+cursor: pointer;
+}
+
+li.slick-active button{
+background: #373855;
+color: #373855;
+}
+
+.slick-slide:focus { outline: none; }
+
 
 @media screen and (max-width: 768px) {
   .diferenciais {
@@ -218,4 +315,10 @@
     width: 100%;
     max-width: 300px;
   }
+
+  .lista-beneficios,
+  .beneficios-img {
+    width: 100%;
+  }
+
 }
