@@ -247,13 +247,9 @@
 
 }
 
-/* the parent */
 .slick-list {
   margin-left:-27px;
- 
 }
-
-/****SLICK SLIDER****/
 
 .slick-dotted ul{
   display: block;
@@ -290,6 +286,54 @@ color: #373855;
 
 .slick-slide:focus { outline: none; }
 
+.contato {
+  padding: 40px 0;
+  text-align: center;
+}
+
+.contato h1 {
+  font-size: 40px;
+}
+
+.contato form {
+  width: 100%;
+}
+
+.contato input[type=text],
+.contato input[type=email] {
+  width: 100%;
+  height: 50px;
+  margin: 20px 0;
+  border-radius: 10px;
+  background-color: #FCFDFF;
+  border: 1px solid #C3CCE8;
+  padding-left: 10px;
+}
+
+.contato textarea {
+  width: 100%;
+  height: 90px;
+  margin: 20px 0;
+  border-radius: 10px;
+  background-color: #FCFDFF;
+  border: 1px solid #C3CCE8;
+  padding-left: 10px;
+  resize: vertical;
+}
+
+.contato input[type=submit]{
+  width: 100%;
+  height: 50px;
+  display: block;
+  cursor: pointer;
+  border: 0;
+  background-color: #255AFF;
+  color: white;
+  font-size: 16px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
 
 @media screen and (max-width: 768px) {
   .diferenciais {
